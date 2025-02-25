@@ -4,3 +4,30 @@
     padding: 0px;
 }
 
+:root {
+    --primary-color: #A66E38;
+    --secondary-color: #FFAD60;
+    --tertiary-color: #FFEEAD;
+}
+
+body {
+    background-color: var(--primary-color);
+    
+}
+
+header {
+    background-color: rgb(97, 23, 23);
+}
+    
+
+.apresentacao {
+
+}
+
+h1 {
+
+}
+
+h2 {
+    color: black;
+}
