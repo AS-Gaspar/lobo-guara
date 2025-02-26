@@ -1,3 +1,8 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Dirt&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,29 +10,40 @@
 }
 
 :root {
-    --primary-color: #A66E38;
-    --secondary-color: #FFAD60;
-    --tertiary-color: #FFEEAD;
+    --primary-color: #E9EED9;
+    --secondary-color:#CBD2A4;
+    --tertiary-color: #9A7E6F;
+    --quaternary-color: #54473F;
 }
 
 body {
-    background-color: var(--primary-color);
-    
+   background-color: var(--secondary-color);
+}
+
+h1, h2 {
+    font-family: "Rubik Dirt", sans-serif;
+}
+
+p {
+    font-family: "Open Sjans", sans-serif;
 }
 
 header {
-    background-color: rgb(97, 23, 23);
+    background-image: linear-gradient(to bottom, var(--tertiary-color), var(--quaternary-color));
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
 }
-    
+
+.titulo {
+    color: var(--secondary-color);
+    text-shadow: 1px 1px 4px black;
+}
 
 .apresentacao {
 
 }
 
-h1 {
-
-}
-
-h2 {
-    color: black;
-}
