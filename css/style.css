@@ -11,7 +11,7 @@
 }
 
 :root {
-    --primary-color: #E9EED9;
+    --primary-color: ;
     --secondary-color: #CBD2A4;
     --tertiary-color: #9A7E6F;
     --quaternary-color: #54473F;
@@ -28,6 +28,13 @@ body {
 p {
     font-family: "Open Sans", sans-serif;
     padding: 5px;
+    margin: 0px 10px;
+    text-indent: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
 }
 
 /* Títulos e Subtítulos*/
@@ -51,6 +58,13 @@ h2 {
     padding: 3px;
     border-radius: 4px;
     box-shadow: 1px 1px 2px gray;
+    width: 98%;
+    margin: auto;
+}
+
+h3 {
+    font-size: 18pt;
+    text-align: center;
 }
 
 /* Cabeçalho */
@@ -72,17 +86,48 @@ header {
     color: lightgray;
 }
 
+/* Conteúdo principal */
+
 main {
     background-color: #fff;
     width: 100%;
-    height: 100vh;
-    max-width: 800px;
+    max-width: 1000px;
     min-width: 300px;
-    padding: 10px;
+    padding-top: 10px;
+    border-radius: 0px 0px 5px 5px;
 }
 
-.apresentacao {
-    
+.container-section {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 10px 5px;
+    gap: 8px;
+}
+
+.list {
+    list-style-position: inside;
+    margin: 0px 20px;
+}
+
+.img-container {
+    background-color: var(--tertiary-color);
+    width: 90%;
+    margin: auto;
+    padding: 1.4vh;
+    border-radius: 3px;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+/*Links*/
+
+.container-links {
+    background-color: var(--secondary-color);
+    list-style-position: inside;
+    padding: 10px;
 }
 
 /* Rodapé */
@@ -90,7 +135,7 @@ main {
 .footer-bottom {
     width: 100vw;
     background-color: black;
-    padding: 0.4rem;
+    padding: 0.1rem;
     text-align: center;
 }
 

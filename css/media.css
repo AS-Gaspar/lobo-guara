@@ -1,0 +1,10 @@
+@media (min-width: 600px) {
+
+    p, a, li{
+        font-size: 20px;
+    }
+
+    .img-container {
+        width: 65%;
+    }
+}
